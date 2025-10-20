@@ -1,0 +1,9 @@
+To get started, you need to set up some environment variables by running: '. ~/.espressif/export-esp.sh' 
+    This step must be done every time you open a new terminal.
+
+See other methods for setting the environment in https://esp-rs.github.io/book/installation/riscv-and-xtensa.html#3-set-up-the-environment-variables
+
+
+Target: 
+Xtensa ESP32-S3 (no_std) [this is a tier 3 target] 
+xtensa-esp32s3-none-elf
