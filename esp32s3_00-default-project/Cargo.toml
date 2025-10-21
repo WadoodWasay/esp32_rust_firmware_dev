@@ -1,11 +1,11 @@
 [package]
 edition      = "2024"
-name         = "my-esp-project"
+name         = "esp32s3_00-default-project"
 rust-version = "1.88"
 version      = "0.1.0"
 
 [[bin]]
-name = "my-esp-project"
+name = "esp32s3_00-default-project"
 path = "./src/bin/main.rs"
 
 [dependencies]
@@ -26,9 +26,6 @@ esp-backtrace = { version = "0.18.0", features = [
   "panic-handler",
 ] }
 esp-println = { version = "0.16.0", features = ["defmt-espflash", "esp32s3"] }
-smart-leds = "0.4.0"
-esp-hal-smartled = "0.16.0"
-esp32s3 = "0.34.0"
 
 
 [profile.dev]
